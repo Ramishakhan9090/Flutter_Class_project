@@ -44,6 +44,12 @@ class _HomePageState extends State<HomePage> {
           icon: Icon(Icons.menu),
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+        foregroundColor: Colors.amber,
+        backgroundColor: Colors.deepPurpleAccent,
+        onPressed: () {},
+        child: Icon(Icons.add),
+      ),
       drawer: Drawer(
         backgroundColor: Colors.grey[100],
         elevation: 3,
